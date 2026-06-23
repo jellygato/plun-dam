@@ -1,0 +1,18 @@
+[gd_scene format=3 uid="uid://dyd4028esidju"]
+
+[ext_resource type="Texture2D" uid="uid://bxtdskaqhggpp" path="res://assets/test_square.png" id="1_7in3r"]
+[ext_resource type="Script" uid="uid://cgl0b7dmhenqb" path="res://captain_castor/captain_castor.gd" id="2_i4mxa"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_030or"]
+size = Vector2(32, 32)
+
+[node name="CharacterBody2D" type="CharacterBody2D" unique_id=2092519670]
+script = ExtResource("2_i4mxa")
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=1768486315]
+position = Vector2(16, 16)
+texture = ExtResource("1_7in3r")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=768616540]
+position = Vector2(16, 16)
+shape = SubResource("RectangleShape2D_030or")
