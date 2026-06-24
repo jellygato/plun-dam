@@ -33,7 +33,7 @@ func _process(delta: float) -> void:
 func try_jump() -> void:
 	if not is_on_floor():
 		return
-	print(is_on_floor())
+	$Jump.play()	
 	velocity.y = JUMP_VELOCITY
 
 func try_attack() -> void:
