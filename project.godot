@@ -15,6 +15,14 @@ run/main_scene="uid://dyd4028esidju"
 config/features=PackedStringArray("4.6", "GL Compatibility")
 config/icon="res://icon.svg"
 
+[autoload]
+
+SoundPlayer="*uid://chime3e57hvga"
+
+[dotnet]
+
+project/assembly_name="Plun-dam"
+
 [input]
 
 move_left={

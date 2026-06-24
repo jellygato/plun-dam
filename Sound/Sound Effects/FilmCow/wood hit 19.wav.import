@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://tmgmjg4lowtw"
+path="res://.godot/imported/wood hit 19.wav-7b631388b48471aa6cd36efb609f432e.sample"
+
+[deps]
+
+source_file="res://Sound/Sound Effects/FilmCow/wood hit 19.wav"
+dest_files=["res://.godot/imported/wood hit 19.wav-7b631388b48471aa6cd36efb609f432e.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2
