@@ -1,10 +1,18 @@
 [gd_scene format=3 uid="uid://bqhf7ad1ha4jp"]
 
-[ext_resource type="PackedScene" uid="uid://dyd4028esidju" path="res://captain_castor/captain_castor.tscn" id="1_wtcfe"]
+[ext_resource type="PackedScene" uid="uid://dyd4028esidju" path="res://player/player.tscn" id="1_wtcfe"]
 [ext_resource type="PackedScene" uid="uid://cccl8o2tg7eec" path="res://test_floor.tscn" id="2_0e48y"]
+[ext_resource type="PackedScene" uid="uid://c3342r1dltswy" path="res://test_walls.tscn" id="3_epypp"]
+[ext_resource type="PackedScene" uid="uid://dus1bs4m6cb2" path="res://enemy.tscn" id="4_0hol4"]
 
 [node name="Node2D" type="Node2D" unique_id=501307020]
 
 [node name="Sprite2D" parent="." unique_id=2097498855 instance=ExtResource("1_wtcfe")]
+position = Vector2(198, 524)
 
 [node name="Node2D" parent="." unique_id=948215339 instance=ExtResource("2_0e48y")]
+
+[node name="Node2D2" parent="." unique_id=1727649180 instance=ExtResource("3_epypp")]
+
+[node name="CharacterBody2D" parent="." unique_id=954487480 instance=ExtResource("4_0hol4")]
+position = Vector2(970, 601)

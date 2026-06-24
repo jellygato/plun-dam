@@ -1,7 +1,7 @@
 [gd_scene format=3 uid="uid://dyd4028esidju"]
 
 [ext_resource type="Texture2D" uid="uid://bxtdskaqhggpp" path="res://assets/test_square.png" id="1_7in3r"]
-[ext_resource type="Script" uid="uid://cgl0b7dmhenqb" path="res://captain_castor/captain_castor.gd" id="2_i4mxa"]
+[ext_resource type="Script" uid="uid://cgl0b7dmhenqb" path="res://player/player.gd" id="2_i4mxa"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_030or"]
 size = Vector2(32, 32)
